@@ -1,0 +1,167 @@
+{ 
+    "_id" : ObjectId("57ee16919ff917168cdcb528"), 
+    "question" : "What is your age?", 
+    "choices" : [
+        {
+            "text" : "10-20", 
+            "_id" : ObjectId("57ee16919ff917168cdcb52c"), 
+            "votes" : [
+
+            ]
+        }, 
+        {
+            "text" : "20-30", 
+            "_id" : ObjectId("57ee16919ff917168cdcb52b"), 
+            "votes" : [
+                {
+                    "ip" : "::ffff:172.19.38.125", 
+                    "_id" : ObjectId("57ee18759ff917168cdcb53d")
+                }, 
+                {
+                    "ip" : "::1", 
+                    "_id" : ObjectId("57ee18899ff917168cdcb53f")
+                }
+            ]
+        }, 
+        {
+            "text" : "30-40", 
+            "_id" : ObjectId("57ee16919ff917168cdcb52a"), 
+            "votes" : [
+                {
+                    "ip" : "::ffff:172.19.38.117", 
+                    "_id" : ObjectId("57ee18b69ff917168cdcb541")
+                }
+            ]
+        }, 
+        {
+            "text" : "40+", 
+            "_id" : ObjectId("57ee16919ff917168cdcb529"), 
+            "votes" : [
+
+            ]
+        }
+    ], 
+    "__v" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("57ee16ad9ff917168cdcb52d"), 
+    "question" : "What type of vehicle do you own?", 
+    "choices" : [
+        {
+            "text" : "Van", 
+            "_id" : ObjectId("57ee16ad9ff917168cdcb530"), 
+            "votes" : [
+
+            ]
+        }, 
+        {
+            "text" : "SUV", 
+            "_id" : ObjectId("57ee16ad9ff917168cdcb52f"), 
+            "votes" : [
+
+            ]
+        }, 
+        {
+            "text" : "Sedan", 
+            "_id" : ObjectId("57ee16ad9ff917168cdcb52e"), 
+            "votes" : [
+
+            ]
+        }
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("57ee16c79ff917168cdcb531"), 
+    "question" : "Did you vote in the last election?", 
+    "choices" : [
+        {
+            "text" : "Yes", 
+            "_id" : ObjectId("57ee16c79ff917168cdcb533"), 
+            "votes" : [
+
+            ]
+        }, 
+        {
+            "text" : "No", 
+            "_id" : ObjectId("57ee16c79ff917168cdcb532"), 
+            "votes" : [
+
+            ]
+        }
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("57ee174e9ff917168cdcb534"), 
+    "question" : "You indicated that you eat at Joe’s fast food once every 3 months. Why don’t you eat at Joe’s more often?", 
+    "choices" : [
+        {
+            "text" : "There isn’t a location near my house", 
+            "_id" : ObjectId("57ee174e9ff917168cdcb537"), 
+            "votes" : [
+                {
+                    "ip" : "::ffff:172.19.38.125", 
+                    "_id" : ObjectId("57ee18829ff917168cdcb53e")
+                }, 
+                {
+                    "ip" : "::1", 
+                    "_id" : ObjectId("57ee18989ff917168cdcb540")
+                }
+            ]
+        }, 
+        {
+            "text" : "I don’t like the taste of the food", 
+            "_id" : ObjectId("57ee174e9ff917168cdcb536"), 
+            "votes" : [
+
+            ]
+        }, 
+        {
+            "text" : "Never heard of it", 
+            "_id" : ObjectId("57ee174e9ff917168cdcb535"), 
+            "votes" : [
+                {
+                    "ip" : "::ffff:172.19.38.117", 
+                    "_id" : ObjectId("57ee18bb9ff917168cdcb542")
+                }
+            ]
+        }
+    ], 
+    "__v" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("57ee178d9ff917168cdcb538"), 
+    "question" : "What is your opinion of Crazy Justin’s auto-repair?", 
+    "choices" : [
+        {
+            "text" : "Dinner and Movie", 
+            "_id" : ObjectId("57ee178d9ff917168cdcb53c"), 
+            "votes" : [
+
+            ]
+        }, 
+        {
+            "text" : "Dinner Only", 
+            "_id" : ObjectId("57ee178d9ff917168cdcb53b"), 
+            "votes" : [
+
+            ]
+        }, 
+        {
+            "text" : "Movie Only", 
+            "_id" : ObjectId("57ee178d9ff917168cdcb53a"), 
+            "votes" : [
+
+            ]
+        }, 
+        {
+            "text" : "Neither", 
+            "_id" : ObjectId("57ee178d9ff917168cdcb539"), 
+            "votes" : [
+
+            ]
+        }
+    ], 
+    "__v" : NumberInt(0)
+}

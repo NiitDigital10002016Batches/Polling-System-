@@ -1,0 +1,21 @@
+{ 
+    "_id" : ObjectId("57ee15de9ff917168cdcb525"), 
+    "name" : "guest1", 
+    "email" : "guest1@test.com", 
+    "password" : "niit@123", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("57ee15f49ff917168cdcb526"), 
+    "name" : "guest2", 
+    "email" : "guest2@test.com", 
+    "password" : "niit@123", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("57ee16129ff917168cdcb527"), 
+    "name" : "guest3", 
+    "email" : "guest3@test.com", 
+    "password" : "niit@123", 
+    "__v" : NumberInt(0)
+}
