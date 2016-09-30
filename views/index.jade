@@ -1,0 +1,28 @@
+doctype html
+html(lang='en', ng-app='polls')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+		title Polls
+		link(rel='stylesheet' href='//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css')
+		link(rel='stylesheet' href='/stylesheets/style.css')
+		script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js')
+		script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular-resource.min.js')
+		script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+		script(src='//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js')
+		link( rel="stylesheet" href="http://www.w3schools.com/lib/w3.css")
+		script(src='/socket.io/socket.io.js')
+		script(src='/javascripts/app.js')
+		script(src='/javascripts/services.js')
+		script(src='/javascripts/controllers.js')
+		script(src='/stylesheets/sweetalert.min.js') 
+		link(rel='stylesheet' href='/stylesheets/sweetalert.css')
+	body(ng-controller="LoginPageCtrl")
+		nav.navbar.navbar-fixed-top.w3-navbar.w3-black(role='navigation')
+			ul.navbar-header
+				a.navbar-brand(href='#/login') Welcome to Polling System!		
+		div.container
+			div(ng-view)
+
+
+

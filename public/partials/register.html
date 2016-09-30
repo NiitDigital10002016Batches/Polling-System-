@@ -1,0 +1,30 @@
+<div class="centerIt">
+
+<div class="page-header">
+	<h1>Create New User</h1>
+</div>
+
+<form role="form" style="align:center" novalidate>
+	<div class="form-group">
+		<label for="userName">User Name</label>
+		<input type="text" ng-model="reg.name" class="form-control" id="userName" placeholder="Enter Name">
+	</div>
+	<div class="form-group">
+		<label for="eMail">Email</label>
+		<input ng-model="reg.email" class="form-control" id="eMail" type="text" placeholder="Enter Email">
+	</div>
+	<div class="form-group">
+		<label for="password">Password</label>
+		<input ng-model="reg.password" class="form-control" id="password" type="password" placeholder="Enter Password">
+	</div>
+	<p><hr></p>
+	
+	<div class="row">
+		<div class="col-xs-6">
+			<button class="btn btn-primary pull-right" style="backgroud-color:black" type="button" ng-click="createuser()" >Register User</button>
+		</div>
+	</div>
+	
+	<p>&nbsp;</p>
+</form>
+</div>

@@ -1,0 +1,55 @@
+body {
+background-color: #2a6496;
+  padding-top: 50px;
+  color:white;
+}
+
+.tab-content .lead {
+	margin-top: 20px;
+}
+
+.result-table {
+	align-content: center;
+	margin: 20px 0;
+	width: 50%;
+	border-collapse: collapse;
+}
+
+.result-table td {
+	padding: 8px;
+}
+
+.result-table > tbody > tr > td:first-child {
+	width: 25%;
+	max-width: 300px;
+	text-align: right;
+}
+.btn-primary {
+    color: #fff;
+    background-color:#000000;
+	border-color:#000000;
+   
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.centerIt{
+    margin: auto;
+    width: 60%;
+    border: 3px;
+    padding: 10px;
+}
+
+a:link {
+  color:white;
+  }
+  
+a:hover {
+ text-decoration: underline;
+  color:white ;
+ 
+}
+
