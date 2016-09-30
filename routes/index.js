@@ -5,7 +5,7 @@ if (process.env.VCAP_SERVICES) {
    var env = JSON.parse(process.env.VCAP_SERVICES);
    db = mongoose.createConnection(env['mongodb-2.2'][0].credentials.url);
 } else {
-   db = mongoose.createConnection('192.168.56.1', 'pollsapp');
+   db = mongoose.createConnection('localhost', 'pollsapp');
 }
 
 // Get Poll schema and model
@@ -117,7 +117,7 @@ exports.vote = function(socket) {
 						if(vote.ip === ip) {
 							theDoc.userVoted = true;
 							theDoc.userChoice = { _id: choice._id, text: choice.text };
-						
+						}
 					}
 				}
 				
